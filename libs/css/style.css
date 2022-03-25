@@ -139,4 +139,10 @@ footer {
 .bg_blue {
     background-color: #114c92;
 }
+.heros_header_2 {
+    background: url(/Assets/Illustration/img19.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /* ============ *****  À PROPOS   ***** ============ */
