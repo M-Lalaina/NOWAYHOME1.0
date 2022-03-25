@@ -2,7 +2,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-<h2>.</h2>
 
 <br>
 
