@@ -146,3 +146,7 @@ footer {
 }
 
 /* ============ *****  À PROPOS   ***** ============ */
+.apropos_header_2 {
+    background: url(/Assets/Illustration/img5.png) no-repeat;
+    background-color: #f1c530;
+}
