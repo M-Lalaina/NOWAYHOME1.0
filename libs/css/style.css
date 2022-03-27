@@ -7,8 +7,15 @@
     font-family: "font2";
     src: url(/Assets/Fonts/Montserrat-Regular.ttf);
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 .nav_link {
     color: #ffffff;
+}
+section {
+    padding: 0 10%;
 }
 /* ============ *****  ACCEUIL  ***** ============ */
 /* HEADER */
@@ -17,7 +24,6 @@
 }
 header .header_part_2 {
     background: url(/Assets/Illustration/img1.png) no-repeat;
-    background-position: center;
     background-size: cover;
 }
 .spidermann {
@@ -57,10 +63,13 @@ h1 {
 main .section_1 {
     background-color: #b11313;
 }
+figure {
+    width: 302px;
+}
 figcaption {
+    margin: 35px 0;
     font-family: "font2", sans-serif;
     font-size: 14px;
-    padding: 5% 17%;
     text-align: justify;
 }
 main .section_2 {
@@ -81,7 +90,7 @@ main input {
     border-radius: 25px;
 }
 main .section_3 {
-    background: url(/Assets/Illustration/img6.png) no-repeat right;
+    background: url(/Assets/Illustration/img6.png) no-repeat top right;
     background-color: #b11313;
 }
 /* FOOTER */

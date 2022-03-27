@@ -15,10 +15,10 @@
         <!-- !HEADER -->
         <header>
             <!-- Premier_partie du header -->
-            <section class="container-fluid d-none d-md-block bg_red">
+            <section class="d-none d-md-block bg_red">
                 <!-- ?NAVIGATION BAR -->
                 <nav class="navbar navbar-expand-md">
-                    <div class="container align-items-end px-5">
+                    <div class="container align-items-end">
                         <span class="navbar-brand">
                             <img
                                 src="/Assets/Logo/logo1.png"
@@ -69,8 +69,8 @@
             </section>
             <!-- second_parie du header -->
             <section class="header_part_2">
-                <!-- ? -->
-                <div class="container d-md-none ms-5" style="padding: 6% 0">
+                <!-- ?partie visible uniquement à partir de sm  -->
+                <div class="container d-md-none" style="padding: 6% 0">
                     <span>
                         <img
                             class="img-fluid"
@@ -92,7 +92,7 @@
                         />
                     </span>
                 </div>
-                <div class="container text-white spidermann px-5">
+                <div class="container text-white spidermann">
                     <div class="row col-12">
                         <div class="col-lg-6">
                             <h1 class="text-uppercase">spiderman</h1>
@@ -102,7 +102,7 @@
                                 <a href="heros.html"
                                     ><button
                                         type="button"
-                                        class="btn btn-light px-lg-5 py-2 me-lg-5 fw-bold"
+                                        class="btn btn-light px-lg-5 py-2 me-lg-3 fw-bold"
                                     >
                                         Voir les Héros
                                     </button></a
@@ -110,7 +110,7 @@
                                 <a href="adversaires.html"
                                     ><button
                                         type="button"
-                                        class="btn px-lg-4 py-2 btn_adv border border-light fw-bold"
+                                        class="btn px-lg-5 py-2 btn_adv border border-light fw-bold"
                                     >
                                         Voir les Adversaires
                                     </button></a
@@ -118,11 +118,13 @@
                             </div>
                         </div>
                         <div class="row">
-                            <p class="fw-bold">L'araignée sympa du quartier!</p>
+                            <p class="fw-bold fs-4">
+                                L'araignée sympa du quartier!
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="container pb-2 px-4">
+                <div class="container">
                     <div class="row text-white">
                         <div class="col-5">
                             <h2 class="text-uppercase ciné px-0">
@@ -142,15 +144,16 @@
         <!-- CONTENUS -->
         <main>
             <!-- 1er partie du contenus -->
-            <section class="section_1">
-                <div class="container-fluid px-5">
+            <div class="section_1">
+                <div class="container">
                     <div class="row text-white">
                         <div class="col">
-                            <div class="col">
-                                <figure class="text-center">
+                            <div class="col d-flex justify-content-center">
+                                <figure>
                                     <img
                                         src="/Assets/Illustration/img2.png"
                                         alt="img2"
+                                        width="100%"
                                     />
                                     <figcaption>
                                         Trois films Spiderman sont sortis en
@@ -167,8 +170,6 @@
                                         des films les plus chers de l'histoire
                                         du cinéma.
                                     </figcaption>
-                                </figure>
-                                <div class="row pb-5">
                                     <div class="text-center">
                                         <button
                                             type="button"
@@ -177,15 +178,16 @@
                                             Voir les Adversaires
                                         </button>
                                     </div>
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="col">
-                                <figure class="text-center">
+                            <div class="col d-flex justify-content-center">
+                                <figure>
                                     <img
                                         src="/Assets/Illustration/img3.png"
                                         alt="img3"
+                                        width="100%"
                                     />
                                     <figcaption>
                                         The Amazing Spiderman est sorti en 2012,
@@ -201,8 +203,6 @@
                                         cinématographique Marvel et abandonne
                                         ainsi The Amazing Spider-Man.
                                     </figcaption>
-                                </figure>
-                                <div class="row pb-5">
                                     <div class="text-center">
                                         <button
                                             type="button"
@@ -211,15 +211,16 @@
                                             Voir les Adversaires
                                         </button>
                                     </div>
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="col">
-                                <figure class="text-center">
+                            <div class="col d-flex justify-content-center">
+                                <figure>
                                     <img
                                         src="/Assets/Illustration/img4.png"
                                         alt="img4"
+                                        width="100%"
                                     />
                                     <figcaption>
                                         Spider-Man, désormais incarné par Tom
@@ -241,22 +242,20 @@
                                         Avengers Infinity War et Avengers End
                                         Game, combatant au côté des Avengers.
                                     </figcaption>
+                                    <div class="text-center">
+                                        <button
+                                            type="button"
+                                            class="btn px-lg-4 py-2 btn-light fw-bold"
+                                        >
+                                            Voir les Adversaires
+                                        </button>
+                                    </div>
                                 </figure>
-                            </div>
-                            <div class="row pb-5">
-                                <div class="text-center">
-                                    <button
-                                        type="button"
-                                        class="btn px-lg-4 py-2 btn-light fw-bold"
-                                    >
-                                        Voir les Adversaires
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             <!-- end! -->
             <!-- 2èm partie du contenus -->
             <section class="section_2">
@@ -264,7 +263,7 @@
                     <div class="row py-5">
                         <div class="col-6"></div>
                         <div class="col-6">
-                            <div class="container-fluid text-center">
+                            <div class="text-center">
                                 <div>
                                     <h3
                                         class="text-uppercase mx-5 px-4"
@@ -496,7 +495,7 @@
             </div>
             <!-- end! -->
             <!-- footer_partie_2 -->
-            <div class="container d-flex justify-content-center">
+            <div class="container-fluid d-flex justify-content-center">
                 <div class="row icons">
                     <figure class="col p-0 me-2">
                         <img
@@ -554,7 +553,7 @@
             </div>
             <!-- end! -->
             <!-- Footer_partie_3 -->
-            <div class="container d-flex justify-content-center">
+            <div class="container-fluid d-flex justify-content-center">
                 <div class="row pb-4 mt-2" id="copyright">
                     <span>©SaynaXMarvel, Inc.2002.We love our users! </span>
                 </div>
