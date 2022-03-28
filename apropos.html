@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Titre du page -->
         <title>No_Way_Home</title>
+        <!-- Fonts/awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        />
         <!-- BOOTSTRAP CSS -->
         <link rel="stylesheet" href="/libs/css/bootstrap.min.css" />
         <!-- Style CSS -->
@@ -15,10 +20,10 @@
         <!-- !HEADER -->
         <header>
             <!-- Premier_partie du header -->
-            <section class="container-fluid d-none d-md-block bg_red">
+            <section class="container-fluid bg_red">
                 <!-- ?NAVIGATION BAR -->
                 <nav class="navbar navbar-expand-md">
-                    <div class="container align-items-end px-5">
+                    <div class="container-fluid align-items-end">
                         <span class="navbar-brand">
                             <img
                                 src="/Assets/Logo/logo1.png"
@@ -38,70 +43,195 @@
                                 height="45px"
                             />
                         </span>
+                        <span
+                            class="navbar-toggler"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#toggleMobileMenu"
+                            aria-controls="#toggleMobileMenu"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                            ><a class="nav-link" href="#"
+                                ><i class="fa-solid fa-ellipsis"></i
+                            ></a>
+                        </span>
 
-                        <ul class="navbar-nav ms-auto mb-0">
-                            <li class="nav-item me-lg-5 me-md-2">
-                                <a class="nav-link nav_link" href="acceuil.html"
-                                    >Acceuil</a
-                                >
-                            </li>
-                            <li class="nav-item me-lg-5 me-md-2">
-                                <a
-                                    class="nav-link nav_link"
-                                    href="adversaires.html"
-                                    >Adversaires
-                                </a>
-                            </li>
-                            <li class="nav-item me-lg-5 me-md-2">
-                                <a class="nav-link nav_link" href="heros.html"
-                                    >Héros</a
-                                >
-                            </li>
-                            <li class="nav-item me-lg-5 me-md-2">
-                                <a class="nav-link nav_link" href="apropos.html"
-                                    >À propos</a
-                                >
-                            </li>
-                        </ul>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="toggleMobileMenu"
+                        >
+                            <ul class="navbar-nav ms-auto mb-0">
+                                <li class="nav-item me-lg-5 me-md-2">
+                                    <a class="nav-link" href="acceuil.html"
+                                        >Acceuil</a
+                                    >
+                                </li>
+                                <li class="nav-item me-lg-5 me-md-2">
+                                    <a class="nav-link" href="adversaires.html"
+                                        >Adversaires
+                                    </a>
+                                </li>
+                                <li class="nav-item me-lg-5 me-md-2">
+                                    <a class="nav-link" href="heros.html"
+                                        >Héros</a
+                                    >
+                                </li>
+                                <li class="nav-item me-lg-5 me-md-2">
+                                    <a class="nav-link" href="apropos.html"
+                                        >À propos</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
                 <!-- ?end! -->
             </section>
             <!-- second_parie du header -->
             <section class="apropos_header_2">
-                <!-- ? -->
-                <div class="container d-md-none ms-5" style="padding: 6% 0">
-                    <span>
-                        <img
-                            class="img-fluid"
-                            src="/Assets/Logo/logo1.png"
-                            alt="logo_1"
-                            width="40px"
-                        />
-                        <img
-                            class="img-fluid mx-2"
-                            src="/Assets/Logo/logo2.png"
-                            alt="logo_2"
-                            width="15px"
-                        />
-                        <img
-                            src="/Assets/Logo/logo3.png"
-                            alt="logo_3"
-                            width="150px"
-                            height="45px"
-                        />
-                    </span>
-                </div>
-                <div class="container text-white spidermann px-5">
-                    <div class="row col-12"></div>
-                </div>
-                <div class="container pb-2 px-4">
-                    <div class="row text-white"></div>
+                <div class="container text-white la_toile px-5">
+                    <div class="row col-6">
+                        <h1 class="text-uppercase">la toile</h1>
+                        <p class="fw-bold fs-3">
+                            Driling driling petite antenne!
+                        </p>
+                    </div>
                 </div>
             </section>
         </header>
-        <!-- fin du header! -->
-        <!-- CONTENUS -->
+        <!-- !fin du header! -->
+        <!-- !CONTENUS -->
+        <main>
+            <!-- partie_1 du contenu -->
+            <section class="partie_1_apropos py-5">
+                <div class="container text-white p-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3 class="text-uppercase">la petite antenne</h3>
+                            <p>
+                                Envie de laisser un mot à ton araignée prédérée.
+                                <br />
+                                Dépose ton message sur le web et on s'occupe de
+                                tout!
+                            </p>
+                            <img
+                                src="/Assets/Illustration/img34.png"
+                                alt="img_34"
+                                width="75%"
+                            />
+                        </div>
+                        <div class="col-6">
+                            <div class="row mb-3 justify-content-center">
+                                <div>
+                                    <input
+                                        class="py-1 px-3 bg-transparent border border-light text-white"
+                                        id="form_name"
+                                        type="text"
+                                        name="name"
+                                        placeholder="Nom"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div>
+                                    <input
+                                        class="py-1 px-3 bg-transparent border border-light"
+                                        id="form_first_name"
+                                        type="text"
+                                        name="first_name"
+                                        placeholder="Prénom"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div>
+                                    <input
+                                        class="py-1 px-3 bg-transparent border border-light"
+                                        id="form_email"
+                                        type="email"
+                                        name="email"
+                                        placeholder="Adresse email"
+                                    />
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div>
+                                    <textarea
+                                        class="py-1 px-3 bg-transparent border border-light"
+                                        id="form_message"
+                                        required="required"
+                                        placeholder="Message"
+                                    ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- parti_2 du contenu -->
+            <section class="partie_2_apropos">
+                <div class="container text-white">
+                    <h3 class="text-uppercase">SaynaX Marvel</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>
+                                Créé par les légendaires Stan Lee et Števe
+                                Ditko, le héros eest apparu pour la première
+                                fois en 1962 dans les planches du comics
+                                TheAmazing Fantasy #15. Avant son intégration
+                                dans le Marvel Cinematic Universee (MCU) et ses
+                                premières sorties au cinéma, le personnage
+                                jouissait déjà d'une forte popularité auprès des
+                                amateurs de super-héros. Cela s'expliquegrâce à
+                                un univers riche et un personnage complexe que
+                                l'on retrlouve souvent confronté à des histoires
+                                tragiques. Mais le personnage dee Spiderman
+                                n'est pas la seule explication de ce succès : la
+                                qualité des comiics tient au moins autant à
+                                l'homme-araignée qu'à ses redoutables ennemisis
+                                et ses iconiques alliés qui viennent enrichir
+                                cet univers singulier. <br />
+                                Au cours de 60 ans d'histoires, Spiderman a vécu
+                                des avenatures incroyables, certaines sont même
+                                restées gravées au panthéon Marvel. Parrmi
+                                celles-ci, on compte notamment la fameuse saga
+                                du clone ou celle du"u costume noir," mais aussi
+                                des crossovers dans lesquels le super-héros
+                                tient un rtôle majeur comme dans Secret Wars ou
+                                plus récemment dans Civil War.Souvent, et en
+                                particulier dans ces grands récits, ses ennemis
+                                et ses allieés viennent enrichin son univers.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <p>
+                                Toute le monde arrive à s'identifier à ce héro
+                                et c'est (pourquoi nous avons souhaité faire une
+                                collaboration ! <br />
+                                Cette collaboration est la première d'une grand
+                                série. L'univvers de la pop culture est une
+                                religion chez SAYNA. Nous aimons à la fois la
+                                rrichesse, mais surtout toutes les valeurs
+                                qu'elles dégagent :
+                                <li>Partage</li>
+                                <li>Liberté</li>
+                                <li>Entraide</li>
+                                <li>...</li>
+                                <br />
+                                La pop culture fait désormais partie intégrante
+                                de notre hisstoire et nous pouvons nous appuyer
+                                dessus pour éveiller nos esprits. L'univers de
+                                SAYNA est tout aussi riche ! Denombreuses
+                                aventures attendents ceux d'entre vous qui
+                                cherchent à se dépasser eet explorer des
+                                frontières inconnus. <br />
+                                L'aventure ne fait que commencer, alors
+                                crampone-toi !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <!-- !FIN des CONTENUS -->
         <!-- !FOOTER -->
         <footer>
@@ -111,19 +241,15 @@
                     <div class="col-5 d-flex justify-content-end">
                         <ul class="nav menu-nav">
                             <li class="nav-item li_right">
-                                <a class="nav-link nav_link" href="#"
-                                    >Mobile app</a
-                                >
+                                <a class="nav-link" href="#">Mobile app</a>
                             </li>
                             <li class="nav-item li_right">
-                                <a class="nav-link nav_link" href="#"
+                                <a class="nav-link" href="#"
                                     >Politique et confidentialité</a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav_link" href="#"
-                                    >Cookies</a
-                                >
+                                <a class="nav-link" href="#">Cookies</a>
                             </li>
                         </ul>
                     </div>
@@ -150,12 +276,10 @@
                     <div class="col-5 d-flex justify-content-start">
                         <ul class="nav menu-nav">
                             <li class="nav-item">
-                                <a class="nav-link nav_link" href="#"
-                                    >Contact</a
-                                >
+                                <a class="nav-link" href="#">Contact</a>
                             </li>
                             <li class="nav-item li_left">
-                                <a class="nav-link nav_link" href="#">Blog</a>
+                                <a class="nav-link" href="#">Blog</a>
                             </li>
                             <li class="nav-item li_left align-self-center">
                                 <span
