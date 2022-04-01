@@ -7,12 +7,12 @@
     font-family: "font2";
     src: url(/Assets/Fonts/Montserrat-Regular.ttf);
 }
-body {
-    background-color: #b11313;
-}
 * {
     margin: 0;
     padding: 0;
+}
+body {
+    overflow-x: hidden;
 }
 .nav-link {
     color: #ffffff;
@@ -180,6 +180,14 @@ footer {
     background: url(/Assets/Illustration/img32.png) no-repeat center;
     background-size: cover;
 }
+.univers {
+    background: url(/Assets/Illustration/img33.png) no-repeat center;
+    background-size: cover;
+}
+.bg_univers {
+    background: #114b9274;
+}
+
 /* ................................................................................................................*/
 /* ============ *****  À PROPOS   ***** ============ */
 /* HEADER-of-à propos-page */
