@@ -23,6 +23,9 @@ body {
 .text_justify {
     text-align: justify;
 }
+p {
+    font-family: "font2", sans-serif;
+}
 /*.......................................................................................................................................................*/
 /* ============ *****  ACCEUIL  ***** ============ */
 /* HEADER */
@@ -144,6 +147,7 @@ footer {
     border: none;
 }
 .card-body {
+    height: 400px;
     border: 8px solid;
     border-top: none;
     border-bottom-right-radius: 25px;
@@ -164,8 +168,9 @@ footer {
     padding: 20% 0 10% 0;
 }
 .partie_2_hero {
-    background: url(/Assets/Illustration/img20.png);
-    padding: 5% 0 15% 0;
+    background: url(/Assets/Illustration/img20.png) no-repeat center;
+    background-size: cover;
+    padding: 10% 0 20% 0;
 }
 .entourage {
     position: relative;
@@ -174,7 +179,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(235px, 110px);
+    transform: translate(315px, 155px);
 }
 .bg_marvel_hero {
     background: url(/Assets/Illustration/img32.png) no-repeat center;
