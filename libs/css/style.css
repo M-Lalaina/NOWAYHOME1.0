@@ -13,6 +13,7 @@
 }
 body {
     overflow-x: hidden;
+    font-family: "font2", sans-serif;
 }
 .nav-link {
     color: #ffffff;
@@ -22,9 +23,6 @@ body {
 }
 .text_justify {
     text-align: justify;
-}
-p {
-    font-family: "font2", sans-serif;
 }
 /*.......................................................................................................................................................*/
 /* ============ *****  ACCEUIL  ***** ============ */
@@ -50,20 +48,6 @@ h1 {
 .btn {
     color: #b11313;
     border-radius: 15px;
-}
-@media screen and (max-width: 768px) {
-    .spidermann {
-        padding: 30% 0% 20% 0%;
-    }
-    header .header_part_2 {
-        background: url(/Assets/Illustration/img1.png) no-repeat center;
-        background-size: cover;
-    }
-}
-@media screen and (max-width: 962px) {
-    h1 {
-        font-size: 30px;
-    }
 }
 /* CONTENUS */
 main .section_1 {
@@ -110,6 +94,24 @@ footer {
 .li_left {
     margin-left: 40px;
 }
+/* *****************!MEDIAS/QUERIES![accueil]************** */
+@media screen and (max-width: 768px) {
+    .spidermann {
+        padding: 30% 0% 20% 0%;
+    }
+    header .header_part_2 {
+        background: url(/Assets/Illustration/img1.png) no-repeat center;
+        background-size: cover;
+    }
+    main input {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 962px) {
+    h1 {
+        font-size: 30px;
+    }
+}
 @media screen and (max-width: 1290px) {
     .li_right {
         margin-right: 0;
@@ -118,16 +120,17 @@ footer {
         margin-left: 0;
     }
 }
-@media screen and (min-width: 1060px) {
+@media screen and (min-width: 1372px) {
     .footer_mobile {
         display: none;
     }
 }
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1371px) {
     .footer_part_1_web {
         display: none;
     }
 }
+
 /*.......................................................................................................................................................*/
 /* ============ *****  ADVERSAIRES   ***** ============ */
 /* HEADER-of-adversaires-pages */
