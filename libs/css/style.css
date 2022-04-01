@@ -66,6 +66,7 @@ main .section_2 {
     background: url(/Assets/Illustration/img5.png) no-repeat;
     background-color: #114c92;
 }
+
 h3 {
     font-family: "font1", sans-serif;
 }
@@ -74,7 +75,7 @@ h3 {
     border-radius: 15px;
 }
 main input {
-    width: 60%;
+    width: 65%;
     border-radius: 25px;
 }
 .in_newsletter::placeholder {
@@ -94,7 +95,7 @@ footer {
 .li_left {
     margin-left: 40px;
 }
-/* *****************!MEDIAS/QUERIES![accueil]************** */
+/* *****************!❗❗❗❗MEDIAS/QUERIES❗❗❗❗![accueil]************** */
 @media screen and (max-width: 768px) {
     .spidermann {
         padding: 30% 0% 20% 0%;
@@ -104,7 +105,14 @@ footer {
         background-size: cover;
     }
     main input {
-        width: 100%;
+        width: 90%;
+    }
+    main .section_2 #become_spiderman {
+        padding: 12% 0 0 0;
+    }
+    main .section_2 #consigne_form {
+        padding: 0 0 15px 0;
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width: 962px) {
