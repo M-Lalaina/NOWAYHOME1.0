@@ -37,7 +37,7 @@ header .header_part_2 {
     background-size: cover;
 }
 .spidermann {
-    padding: 10% 10% 10% 10%;
+    padding: 15% 0 5% 0%;
 }
 h1 {
     font-family: "font1", sans-serif;
@@ -216,6 +216,10 @@ main div #form_message_apropos {
 }
 main div #submit_btn_apropos {
     width: 25%;
+    border-radius: 15px;
+}
+main div #submit_btn_apropos_2 {
+    width: 50%;
     border-radius: 15px;
 }
 /*.......................................................................................................................................................*/
