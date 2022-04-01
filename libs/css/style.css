@@ -33,7 +33,7 @@ p {
     background-color: #b11313;
 }
 header .header_part_2 {
-    background: url(/Assets/Illustration/img1.png) no-repeat center;
+    background: url(/Assets/Illustration/img1.png) no-repeat center right;
     background-size: cover;
 }
 .spidermann {
@@ -51,13 +51,13 @@ h1 {
     color: #b11313;
     border-radius: 15px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .spidermann {
         padding: 30% 0% 20% 0%;
     }
     header .header_part_2 {
         background: url(/Assets/Illustration/img1.png) no-repeat center;
-        background-size: contain;
+        background-size: cover;
     }
 }
 @media screen and (max-width: 962px) {
@@ -118,8 +118,13 @@ footer {
         margin-left: 0;
     }
 }
+@media screen and (min-width: 1060px) {
+    .footer_mobile {
+        display: none;
+    }
+}
 @media screen and (max-width: 1060px) {
-    .footer_part_1 {
+    .footer_part_1_web {
         display: none;
     }
 }
