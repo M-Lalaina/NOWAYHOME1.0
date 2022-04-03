@@ -38,22 +38,22 @@ header .header_part_2 {
     background-size: contain;
 }
 .spidermann {
-    padding: 15% 0 5% 0%;
+    padding: 20% 0 14% 0%;
 }
 h1 {
     font-family: "font1", sans-serif;
-    font-size: 90px;
+    font-size: 600%;
 }
 .bouttons {
     display: inline-block;
-    padding: 7% 0 0 0;
+    padding: 10% 0 0 0;
 }
 .btn {
     color: #b11313;
     border-radius: 15px;
 }
 figure {
-    width: 302px;
+    width: 350px;
 }
 figcaption {
     height: 255px;
@@ -98,8 +98,15 @@ footer {
 }
 /* *****************!❗❗❗❗MEDIAS/QUERIES❗❗❗❗![accueil]************** */
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
     .spidermann {
-        padding: 30% 0% 20% 0%;
+        padding: 5% 0 1% 0;
+    }
+    .bouttons {
+        display: inline-block;
+        padding: 0;
     }
     main input {
         width: 90%;
@@ -110,11 +117,6 @@ footer {
     main .section_1 #consigne_form {
         padding: 0 0 15px 0;
         font-size: 0.8rem;
-    }
-}
-@media screen and (max-width: 962px) {
-    h1 {
-        font-size: 30px;
     }
 }
 @media screen and (max-width: 1290px) {
