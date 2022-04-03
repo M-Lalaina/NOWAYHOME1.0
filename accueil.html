@@ -65,7 +65,7 @@
             <!-- second_parie du header -->
             <section class="header_part_2">
                 <!-- ?partie mobile  -->
-                <div class="container d-md-none">
+                <div class="container d-md-none" style="padding: 6% 0">
                     <span>
                         <img
                             class="img-fluid"
@@ -92,11 +92,18 @@
                     <div class="row">
                         <h1 class="text-uppercase">spiderman</h1>
                     </div>
-                    <div class="row pb-5 bouttons">
+                    <!-- (on mobile) -->
+                    <div class="pt-4 d-md-none">
+                        <p class="fw-bold fs-4">
+                            L'araignée sympa du quartier!
+                        </p>
+                    </div>
+                    <!-- ...................... -->
+                    <div class="row bouttons">
                         <a href="heros.html"
                             ><button
                                 type="button"
-                                class="btn btn-light px-lg-5 py-2 me-lg-3 fw-bold"
+                                class="btn btn-light px-lg-3 py-2 fw-bold"
                             >
                                 Voir les Héros
                             </button></a
@@ -104,19 +111,23 @@
                         <a href="adversaires.html"
                             ><button
                                 type="button"
-                                class="btn px-lg-5 py-2 btn_adv border border-light fw-bold bg-transparent text-white"
+                                class="btn px-lg-3 py-2 btn_adv border border-light fw-bold bg-transparent text-white"
                             >
                                 Voir les Adversaires
                             </button></a
                         >
+                    </div>
+                    <!-- (on desktop) -->
+                    <div class="pt-4 d-none d-md-block">
                         <p class="fw-bold fs-4">
                             L'araignée sympa du quartier!
                         </p>
                     </div>
+                    <!-- ........................... -->
                 </div>
-                <div class="container pb-5">
+                <div class="container">
                     <div class="row text-white">
-                        <div class="col-5">
+                        <div class="col-lg-6">
                             <h3 class="text-uppercase px-0">
                                 les spidermans au cinéma
                             </h3>
@@ -127,15 +138,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </section>
-        </header>
-        <!-- fin du header! -->
-        <!-- CONTENUS -->
-        <main>
-            <!-- 1er partie du contenus -->
-            <div class="section_1">
-                <div class="container">
                     <div class="row text-white">
                         <div class="col">
                             <div class="col d-flex justify-content-center">
@@ -213,24 +215,31 @@
                                         width="100%"
                                     />
                                     <figcaption>
-                                        Spider-Man, désormais incarné par Tom
-                                        Holland, apparaît pour la premère fois
-                                        dans l'univers Marvel avec Captain
-                                        America: Civil War, sorti en 2016. Par
-                                        la suite, une trilogie de film lui est
-                                        consacré :
-                                        <li class="mx-3">
-                                            Spiderman:Homecoming(2017)
-                                        </li>
-                                        <li class="mx-3">
-                                            Spiderman:Far From Home(2019)
-                                        </li>
-                                        <li class="mx-3">
-                                            Spiderman:No Way Home(2021)
-                                        </li>
+                                        Spiderman, désormais incarné par Tom
+                                        Holland, apparaît pour la première fois
+                                        dans l’univers Marvel avec Captain
+                                        America : Civil War, sorti en 2016. Par
+                                        la suite, une trilogie de films lui est
+                                        consacrée :
+                                        <br />
+                                        <span class="mx-lg-3"
+                                            >• Spiderman : Homecoming
+                                            (2017)</span
+                                        >
+                                        <br />
+                                        <span class="mx-lg-3"
+                                            >• Spiderman : Far From Home
+                                            (2019)</span
+                                        >
+                                        <br />
+                                        <span class="mx-lg-3"
+                                            >• Spiderman : No Way Home
+                                            (2021)</span
+                                        >
+                                        <br />
                                         Le héro est également présent dans
                                         Avengers Infinity War et Avengers End
-                                        Game, combatant au côté des Avengers.
+                                        Game, combattant au côté des Avengers.
                                     </figcaption>
                                     <div class="text-center">
                                         <button
@@ -245,10 +254,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- end! -->
-            <!-- 2èm partie du contenus -->
-            <section class="section_2">
+            </section>
+        </header>
+        <!-- fin du header! -->
+        <!-- !CONTENUS -->
+        <main>
+            <!-- 1ère partie du contenus -->
+            <section class="section_1">
                 <div class="container text-white" id="become_spiderman">
                     <div class="row py-5 d-flex justify-content-end">
                         <div class="col-lg-6">
@@ -333,8 +345,8 @@
                 </div>
             </section>
             <!-- end! -->
-            <!-- 3ième partie du contenus -->
-            <section class="section_3 pb-5">
+            <!-- 2ième partie du contenus -->
+            <section class="section_2 pb-5">
                 <div class="container py-5">
                     <div class="row py-5">
                         <div class="col-6 text-white pb-5">
@@ -406,7 +418,7 @@
             <!--?.... footer mobile ....-->
             <div class="footer_mobile">
                 <div class="row py-5">
-                    <div class="col">
+                    <div class="col-7">
                         <ul>
                             <li class="nav">
                                 <a class="nav-link" href="#">Mobile app</a>
@@ -427,14 +439,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col d-flex justify-content-center pt-5">
+                    <div class="col d-flex justify-content-center pt-4">
                         <span
                             ><select
                                 name="language"
                                 id="langue"
                                 style="
                                     color: #ffffff;
-                                    padding: 10px 100px 15px 15px;
+                                    padding: 10px 70px 10px 15px;
                                     background-color: #b11313;
                                     border-radius: 25px;
                                     border: none;
