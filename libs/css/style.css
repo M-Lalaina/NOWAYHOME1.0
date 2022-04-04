@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    word-wrap: break-word;
 }
 body {
     overflow-x: hidden;
@@ -38,11 +39,11 @@ header .header_part_2 {
     background-size: contain;
 }
 .spidermann {
-    padding: 20% 0 14% 0%;
+    padding: 19% 0 14% 0%;
 }
 h1 {
     font-family: "font1", sans-serif;
-    font-size: 600%;
+    font-size: 6.8rem;
 }
 .bouttons {
     display: inline-block;
@@ -53,10 +54,10 @@ h1 {
     border-radius: 15px;
 }
 figure {
-    width: 350px;
+    width: 305px;
 }
 figcaption {
-    height: 255px;
+    height: 250px;
     margin: 35px 0;
     font-family: "font2", sans-serif;
     font-size: 14px;
@@ -99,10 +100,10 @@ footer {
 /* *****************!❗❗❗❗MEDIAS/QUERIES❗❗❗❗![accueil]************** */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 35px;
+        font-size: 3rem;
     }
     .spidermann {
-        padding: 5% 0 1% 0;
+        padding: 10% 0 20% 4%;
     }
     .bouttons {
         display: inline-block;
