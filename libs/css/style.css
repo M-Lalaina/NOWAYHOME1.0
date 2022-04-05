@@ -26,7 +26,7 @@ body {
     text-align: justify;
 }
 /*.......................................................................................................................................................*/
-/* ============ *****  ACCEUIL  ***** ============ */
+/* ============ *****  1.  ACCEUIL  ***** ============ */
 /* HEADER */
 .bg_red {
     background-color: #b11313;
@@ -97,55 +97,8 @@ footer {
 .li_left {
     margin-left: 40px;
 }
-/* *****************!❗❗❗❗MEDIAS/QUERIES❗❗❗❗![accueil]************** */
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-    }
-    .spidermann {
-        padding: 10% 0 20% 4%;
-    }
-    .bouttons {
-        display: inline-block;
-        padding: 0;
-    }
-    main input {
-        width: 90%;
-    }
-    main .section_1 #become_spiderman {
-        padding: 12% 0 0 0;
-    }
-    main .section_1 #consigne_form {
-        padding: 0 0 15px 0;
-        font-size: 0.8rem;
-    }
-}
-@media screen and (max-width: 1200px) {
-    section .spiedy_caracters {
-        display: block;
-    }
-}
-@media screen and (max-width: 1290px) {
-    .li_right {
-        margin-right: 0;
-    }
-    .li_left {
-        margin-left: 0;
-    }
-}
-@media screen and (min-width: 1372px) {
-    .footer_mobile {
-        display: none;
-    }
-}
-@media screen and (max-width: 1371px) {
-    .footer_part_1_web {
-        display: none;
-    }
-}
-
 /*.......................................................................................................................................................*/
-/* ============ *****  ADVERSAIRES   ***** ============ */
+/* ============ *****  2.  ADVERSAIRES   ***** ============ */
 /* HEADER-of-adversaires-pages */
 .bg_yelllow {
     background-color: #f1c530;
@@ -166,16 +119,17 @@ footer {
 /* CONTENUS */
 .card {
     border: none;
+    width: 21rem;
 }
 .card-body {
-    height: 400px;
+    height: 450px;
     border: 8px solid;
     border-top: none;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 /*.......................................................................................................................................................*/
-/* ============ *****  HEROS   ***** ============ */
+/* ============ *****  3.  HEROS   ***** ============ */
 /* HEADER-of-hero-page */
 .bg_blue {
     background-color: #114c92;
@@ -215,7 +169,7 @@ footer {
 }
 
 /* ................................................................................................................*/
-/* ============ *****  À PROPOS   ***** ============ */
+/* ============ *****  4.  À PROPOS   ***** ============ */
 /* HEADER-of-à propos-page */
 .apropos_header_2 {
     background: url(/Assets/Illustration/img5.0.png) no-repeat right;
@@ -244,9 +198,74 @@ main div #submit_btn_apropos_2 {
     border-radius: 15px;
 }
 /*.......................................................................................................................................................*/
-/* ============ *****  BONUS   ***** ============ */
+/* ============ *****  5.  BONUS   ***** ============ */
 main .bonus {
     padding-top: 25%;
     background: url(/Assets/Illustration/img35.png) no-repeat bottom center;
     background-size: cover;
+}
+/*.......................................................................................................................................................*/
+/* *****************!❗❗❗❗MEDIAS/QUERIES❗❗❗❗![accueil]************** */
+@media screen and (max-width: 500px) {
+    .card {
+        width: 90%;
+    }
+    .card-body {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .spidermann {
+        padding: 10% 0 20% 4%;
+    }
+    .bouttons {
+        display: inline-block;
+        padding: 0;
+    }
+    main input {
+        width: 90%;
+    }
+    main .section_1 #become_spiderman {
+        padding: 12% 0 0 0;
+    }
+    main .section_1 #consigne_form {
+        padding: 0 0 15px 0;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    section .spiedy_caracters_on_mobile {
+        display: block;
+    }
+    .adv_mobile {
+        display: block;
+    }
+    .card {
+        width: 70%;
+        margin: 0 0 8% 0;
+    }
+    .card-body {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1290px) {
+    .li_right {
+        margin-right: 0;
+    }
+    .li_left {
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 1372px) {
+    .footer_mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 1371px) {
+    .footer_part_1_web {
+        display: none;
+    }
 }
